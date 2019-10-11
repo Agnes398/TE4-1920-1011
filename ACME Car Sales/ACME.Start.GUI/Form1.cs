@@ -18,6 +18,15 @@ namespace ACME.Start.GUI
         {
             InitializeComponent();
 
+            label1.Text = "Registrera bil";
+            label2.Text = "Modell";
+            label3.Text = "Registreringsnummer";
+            label4.Text = "Max hastighet";
+            label5.Text = "Hästkraft";
+
+            button2.Text = "Registrera bil";
+
+            label6.Text = "Bilar i lager";
             button1.Text = "Uppdatera";
         }
 
@@ -35,6 +44,11 @@ namespace ACME.Start.GUI
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            repo.MyCars.Add(new Car() { Modell = textBox1.Text, RegNum = textBox2.Text, MaxSpeed = textBox3.Text, HästKraft = textBox4.Text} );
         }
     }
 }

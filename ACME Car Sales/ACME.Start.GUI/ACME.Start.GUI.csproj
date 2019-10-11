@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACME.DAL\ACME.DAL.csproj">
+      <Project>{bff1b18e-4959-4e5b-be9c-21d4f3e62a0c}</Project>
+      <Name>ACME.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

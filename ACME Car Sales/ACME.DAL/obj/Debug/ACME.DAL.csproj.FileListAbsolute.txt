@@ -1,0 +1,5 @@
+C:\TE41920\20191007\ACME Car Sales\ACME.DAL\bin\Debug\ACME.DAL.dll
+C:\TE41920\20191007\ACME Car Sales\ACME.DAL\bin\Debug\ACME.DAL.pdb
+C:\TE41920\20191007\ACME Car Sales\ACME.DAL\obj\Debug\ACME.DAL.csprojAssemblyReference.cache
+C:\TE41920\20191007\ACME Car Sales\ACME.DAL\obj\Debug\ACME.DAL.dll
+C:\TE41920\20191007\ACME Car Sales\ACME.DAL\obj\Debug\ACME.DAL.pdb

@@ -1,0 +1,12 @@
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\bin\Debug\ACME.Start.GUI.exe.config
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\bin\Debug\ACME.Start.GUI.exe
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\bin\Debug\ACME.Start.GUI.pdb
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\bin\Debug\ACME.DAL.dll
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\bin\Debug\ACME.DAL.pdb
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.csprojAssemblyReference.cache
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.Form1.resources
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.Properties.Resources.resources
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.csproj.GenerateResource.cache
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.csproj.CopyComplete
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.exe
+C:\TE41920\20191007\ACME Car Sales\ACME.Start.GUI\obj\Debug\ACME.Start.GUI.pdb
