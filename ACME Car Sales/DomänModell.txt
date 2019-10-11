@@ -1,0 +1,48 @@
+Uppgift 1:
+Programmet ska kunna hantera inköp av nya bilar, försäljning(ta bort) och marknadsföring(?) av bilar. 
+
+Vilka projekttyper behöver jag för att börja:
+- 3 Winforms projekt, RegCar, ShowCars + Menu/Presentation
+- Class, Car (vad ska Car innehålla?)
+- ArrayList, Cars
+
+Kunna klicka på en bil i listboxen som fiins i ShowCars för att få reda på mer information
+Användaren ska kunna ändra informationen om bilen vald
+
+Uppgift 2:
+Fokus på repository och att få in en databas i din lösning
+- DB(DAL) + DB måste kunna hantera CRUD
+
+Funktionerna som måste användas:
+Lägg till bil + bil till listan i DAL
+Visa DAL lista i listbox
+Välj bil från listbox för att se mer info
+Ändringar och ta bort bil
+
+Vad ska finnas i Winformsen? 
+
+Menu/Presentation 
+	Detta är huvudmenyn som ska ha en listBox1 som visar alla de senast registrerade bilar
+	Det ska även finnas två knappar, "Show cars" och "Register car"
+
+RegCar 
+	Här ska det finnas flera textfält där man kan mata in all information som behövs 
+	När man trycker på "Registrera" så ska all data matas in i DAL och alla textfält ska clearas
+	Efter man trycker på knappen ska man kunna se den registrerade bilen i ännu en listBox1 i detta formulär
+
+ShowCars 
+	I detta formulär ska man kunna se alla registrerade bilar i lager(DAL) och (förhoppningsvis) kunna sortera dom med hjälp av checkboxes
+
+Vilka funktioner kommer behövas?
+	Refresh();
+		Uppdatera listboxes och visa listan fron DAL
+			listBox1 & listBox2 clear
+			listBox1 & listBox2 foreach objekt in Car listBox1.items.Add();
+	Save();
+		Spara all information från textboxes och lägg till de i DAL(databasen)
+			INSERT INTO Cars
+	
+
+Eventuella tillägg:
+	Change();
+		Kunna klicka på en bil i listan och ändra information om den bil som man ahr klickat på
