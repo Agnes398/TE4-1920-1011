@@ -15,6 +15,13 @@ namespace ACME.Start.GUI
         public Form1()
         {
             InitializeComponent();
+
+            button1.Text = "Uppdatera";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
