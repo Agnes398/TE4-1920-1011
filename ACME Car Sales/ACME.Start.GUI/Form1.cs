@@ -48,7 +48,18 @@ namespace ACME.Start.GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            repo.MyCars.Add(new Car() { Modell = textBox1.Text, RegNum = textBox2.Text, MaxSpeed = textBox3.Text, HästKraft = textBox4.Text} );
+            repo.MyCars.Add(new Car() { Modell = textBox1.Text, RegNum = textBox2.Text, MaxSpeed = textBox3.Text, HästKraft = textBox4.Text });
+            Update();
+        }
+
+        private void Update()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+
+            textBox1.Focus();
         }
     }
 }
